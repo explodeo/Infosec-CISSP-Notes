@@ -33,7 +33,7 @@
               "type": "markdown",
               "state": {
                 "file": "CISSP Infosec Bootcamp/Day 1/Domain 1 - Security & Risk Management.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               }
             },
@@ -154,11 +154,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d2745920da7b37a1",
+  "active": "f9f2c6556eb4014a",
   "lastOpenFiles": [
+    "README.md",
+    "CISSP Infosec Bootcamp/Day 1/Domain 1 - Security & Risk Management.md",
+    "New Rich Text Document.rtf",
+    "New Text Document.txt",
     "zz_attachments/Pasted image 20241208164407.png",
     "zz_attachments/Pasted image 20241208164308.png",
-    "CISSP Infosec Bootcamp/Day 1/Domain 1 - Security & Risk Management.md",
     "CISSP Infosec Bootcamp/Day 1/NIST Reports.md",
     "zz_attachments/Pasted image 20241208161111.png",
     "CISSP Infosec Bootcamp/Day 1/Domain 7 - Security Operations.md",

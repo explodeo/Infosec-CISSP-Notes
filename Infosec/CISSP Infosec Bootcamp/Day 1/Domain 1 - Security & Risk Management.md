@@ -453,3 +453,5 @@ SLA metrics are monitored and audited:
 
 ## 1.12 Establish and Maintain Security Awareness, Education, & Training
 
+Know **NIST 800-16** - Role-Based Cyber Training
+Know **NIST SP 800-50** - Knowledge Transfer
