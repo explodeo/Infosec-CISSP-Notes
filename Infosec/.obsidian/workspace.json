@@ -1,0 +1,173 @@
+{
+  "main": {
+    "id": "a58092ae7cf5d5f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "1311ad1838b649b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "712178f5e0f69908",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CISSP Infosec Bootcamp/Day 1/Domain 1 - Security & Risk Management.md",
+                "mode": "source",
+                "source": true
+              }
+            },
+            "group": "f27a0c159ae31e93"
+          }
+        ]
+      },
+      {
+        "id": "c00f938fefd726d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d2745920da7b37a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CISSP Infosec Bootcamp/Day 1/Domain 1 - Security & Risk Management.md",
+                "mode": "preview",
+                "source": true
+              }
+            },
+            "group": "f27a0c159ae31e93"
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e6a6585ba6f83957",
+    "type": "split",
+    "children": [
+      {
+        "id": "be63fcc6a845f765",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9f2c6556eb4014a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "413ff4b9dc24ef36",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d4e8cb32b27a04ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "91def551a9f8e7f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a4367f571d1487fc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CISSP Infosec Bootcamp/Day 1/Domain 1 - Security & Risk Management.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f30ec9d8d17a0589",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CISSP Infosec Bootcamp/Day 1/Domain 1 - Security & Risk Management.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a73afb77009f7fbb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f03db05d1af0d464",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CISSP Infosec Bootcamp/Day 1/Domain 1 - Security & Risk Management.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "d2745920da7b37a1",
+  "lastOpenFiles": [
+    "zz_attachments/Pasted image 20241208164407.png",
+    "zz_attachments/Pasted image 20241208164308.png",
+    "CISSP Infosec Bootcamp/Day 1/Domain 1 - Security & Risk Management.md",
+    "CISSP Infosec Bootcamp/Day 1/NIST Reports.md",
+    "zz_attachments/Pasted image 20241208161111.png",
+    "CISSP Infosec Bootcamp/Day 1/Domain 7 - Security Operations.md",
+    "zz_attachments/Pasted image 20241208152745.png",
+    "zz_attachments/Pasted image 20241208123358.png",
+    "zz_attachments",
+    "zz_attachments/Pasted image 20241208123608.png",
+    "zz_attachments/Pasted image 20241208123235.png",
+    "CISSP Infosec Bootcamp/Day 1",
+    "CISSP Infosec Bootcamp"
+  ]
+}
