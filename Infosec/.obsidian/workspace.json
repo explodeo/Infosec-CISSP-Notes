@@ -8,36 +8,48 @@
         "type": "tabs",
         "children": [
           {
-            "id": "712178f5e0f69908",
+            "id": "0d6ddf5c4bd75001",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CISSP Infosec Bootcamp/Day 1/Domain 1 - Security & Risk Management.md",
+                "file": "CISSP Infosec Bootcamp/Domain 3 - Security Architecture & Engineering.md",
                 "mode": "source",
                 "source": true
               }
             },
-            "group": "f27a0c159ae31e93"
+            "group": "744daf3932df0ef5"
+          },
+          {
+            "id": "870e9edec2609012",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CISSP Infosec Bootcamp/NIST Reports.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ]
       },
       {
-        "id": "c00f938fefd726d2",
+        "id": "8da8944136712c7e",
         "type": "tabs",
         "children": [
           {
-            "id": "d2745920da7b37a1",
+            "id": "9e507bae4479e959",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CISSP Infosec Bootcamp/Day 1/Domain 1 - Security & Risk Management.md",
-                "mode": "source",
+                "file": "CISSP Infosec Bootcamp/Domain 3 - Security Architecture & Engineering.md",
+                "mode": "preview",
                 "source": true
               }
             },
-            "group": "f27a0c159ae31e93"
+            "group": "744daf3932df0ef5"
           }
         ]
       }
@@ -97,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CISSP Infosec Bootcamp/Day 1/Domain 1 - Security & Risk Management.md",
+                "file": "CISSP Infosec Bootcamp/Domain 3 - Security Architecture & Engineering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CISSP Infosec Bootcamp/Day 1/Domain 1 - Security & Risk Management.md",
+                "file": "CISSP Infosec Bootcamp/Domain 3 - Security Architecture & Engineering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CISSP Infosec Bootcamp/Day 1/Domain 1 - Security & Risk Management.md"
+                "file": "CISSP Infosec Bootcamp/Domain 3 - Security Architecture & Engineering.md"
               }
             }
           }
@@ -154,22 +166,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f9f2c6556eb4014a",
+  "active": "0d6ddf5c4bd75001",
   "lastOpenFiles": [
+    "zz_attachments/Pasted image 20241209124034.png",
+    "zz_attachments/Pasted image 20241209123119.png",
+    "CISSP Infosec Bootcamp/Domain 4 - Communications and Network Security.md",
+    "CISSP Infosec Bootcamp/Domain 3 - Security Architecture & Engineering.md",
+    "zz_attachments/Pasted image 20241209122207.png",
+    "zz_attachments/Pasted image 20241209120959.png",
+    "zz_attachments/Pasted image 20241209120735.png",
+    "zz_attachments/Pasted image 20241209120713.png",
+    "CISSP Infosec Bootcamp/NIST Reports.md",
+    "CISSP Infosec Bootcamp/Domain 2 - Asset Security.md",
+    "zz_attachments/Pasted image 20241209113301.png",
+    "zz_attachments/Pasted image 20241209113152.png",
+    "CISSP Infosec Bootcamp/Domain 1 - Security & Risk Management.md",
+    "zz_attachments/Pasted image 20241209105331.png",
+    "CISSP Infosec Bootcamp/Domain 5 - Identity and Access Management.md",
+    "CISSP Infosec Bootcamp/Domain 7 - Security Operations.md",
+    "CISSP Infosec Bootcamp/Domain 8 - Software Development Security.md",
+    "CISSP Infosec Bootcamp/Domain 6 - Security Assessment and Testing.md",
+    "Misc Docs",
     "README.md",
-    "CISSP Infosec Bootcamp/Day 1/Domain 1 - Security & Risk Management.md",
     "New Rich Text Document.rtf",
     "New Text Document.txt",
     "zz_attachments/Pasted image 20241208164407.png",
     "zz_attachments/Pasted image 20241208164308.png",
-    "CISSP Infosec Bootcamp/Day 1/NIST Reports.md",
-    "zz_attachments/Pasted image 20241208161111.png",
-    "CISSP Infosec Bootcamp/Day 1/Domain 7 - Security Operations.md",
-    "zz_attachments/Pasted image 20241208152745.png",
-    "zz_attachments/Pasted image 20241208123358.png",
     "zz_attachments",
-    "zz_attachments/Pasted image 20241208123608.png",
-    "zz_attachments/Pasted image 20241208123235.png",
     "CISSP Infosec Bootcamp/Day 1",
     "CISSP Infosec Bootcamp"
   ]

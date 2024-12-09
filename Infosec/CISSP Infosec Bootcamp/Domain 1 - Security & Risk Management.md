@@ -1,3 +1,4 @@
+# Domain 1: Security & Risk Management
 ## 1.1 Professional Ethics
 
 **ISC 2 Code of Ethics Canons**
@@ -62,13 +63,27 @@ A tool for *communication* and *Securiity Management*
 
 ### Standards for Security Governance
 
+#weak_area
+
 **ISO/IEC 27001** (Governance)
 **ISO/IEC 27002** (Controls)
 **CMMI** - Capability Maturity Model Integration
 
 *These can be on the test, but may be* **distractors**:
+
 ***ITIL*** - IT Infrastructure Library best practices
-***COBIT*** - Controls for IT regulatory compliance
+1. Service Strategy - understand objectives and needs
+2. Service Design - turn strategy into a plan
+3. Service Transition - develop and improve capabilities to deliver service
+4. Service Operation
+5. Continuous Service Improvement
+
+***COBIT*** - Controls for IT regulatory compliance. **Key principles** include:
+1. Meeting Stakeholder needs
+2. Covering the Enterprise E2E
+3. Apply a single integrated framework
+4. Holistic Approach
+5. Separate Governance from Management
 
 ### Security Governance Requirements
 
@@ -85,6 +100,9 @@ Information Security Management requirements for *governance*
 - **Plan - Do - Check - Act** model
 
 #### COBIT 
+
+#weak_area
+
 ![](Pasted%20image%2020241208123235.png)
 
 Elements of a security program:
@@ -104,6 +122,8 @@ Elements of a security program:
 
 #### Other Models and Frameworks
 
+#weak_area
+
 - Sherwood Applied Business Security Architecture (SABSA)
 - **Capability Maturity Model (CMMI)**
 - ITIL
@@ -111,14 +131,17 @@ Elements of a security program:
 
 ### Assessment & Authorization
 
+#weak_area
+
 **Assess** a system is in compliance with security controls
 
 **Authorization** is done by the *Authorizing Official* accepting or rejecting residual risk
 
-
 For the exam know how these interact and the responsibilities of each. The exam does not use the proper names. 
 - **Data Custodian** (Administrator)
 - **Data Owner** (C-Level) also known as AO. 
+	- *Defines the Value of an asset*
+	- *determines the correct level of protection*
 
 ## 1.4 Understand Legal, Regulatory, and Compliance Issues
 
@@ -138,7 +161,9 @@ For the exam know how these interact and the responsibilities of each. The exam 
 
 **Legally-Recognized Obligation** - a standard exists that protects others from unreasonable risks
 
-##### Types of Common law
+##### Types of Common Law
+
+#weak_area
 
 **Proximate Causation** - Negligence that can be proven (plaintiff/defendant cases)
 
@@ -149,6 +174,8 @@ Violation of due care (unreasonable actions)
 Violation of privacy (PII leaks)
 
 #### US Legal & Regulatory Compliance
+
+#weak_area
 
 *Sarbanes-Oxley (SOX)* - financial recordkeeping accuracy
 *Basel III* - international banking
@@ -186,6 +213,8 @@ Many laws exist to protect (PII). Organizations have an **Acceptable Use Policy*
 
 #### Statutory (Written) Law
 
+#weak_area
+
 **Administrative Law** - regulations/contract violations
 **Civil or Tort Law** - legal suits over damages
 **Criminal Law** - violations of federal or state law 
@@ -199,9 +228,12 @@ Export Arms Regulation (EAR)
 ## 1.5 Understand Requirements for Investigation Types
 
 Understand why these privacy laws exist in [Section 1.4](#1.4-understand-legal,-regulatory-and-compliance-issues)
+
 ## 1.6 Develop, Document, and Implement Security Policy
 
 ### Security Policies
+
+#weak_area
 
 **Security Policy Categories**
 - Regulatory
@@ -231,6 +263,8 @@ Focus on policies to prevent risks from being realized again and to hold someone
 ## 1.7 Identify, Analyze, Assess, Prioritize, and Implement Business Continuity Requirements
 
 See [Domain 7 - Security Operations](Domain%207%20-%20Security%20Operations.md)
+
+#weak_area
 
 **Business Continuity Planning**
 1. Identify
@@ -414,19 +448,61 @@ Mnemonic - CSI AAM - CSI Anti Aircraft Machine
 
 *Confidentiality*
 *Integrity*
-*Available*
+*Availability*
 
 ### Threat Modeling
 
 Performed during the early stages of the SDLC.
 
 **Common Threat Modeling Frameworks**:
-- **STRIDE**
-- **PASTA**
+- **STRIDE** - Spoofing Tampering Repudiation Information Disclosure Elevation of Privilege
+- **PASTA** - Process for Attack Simulation and Threat Analysis
 - *Kill Chain Analysis*
-- DREAD
+- *DREAD*
 - Attack Trees
 - etc.
+
+#### Process for Attack Simulation and Threat Analysis (PASTA)
+
+#weak_area 
+
+**Threat Modeling Structure**
+- Assessment Scope
+- Identify Threat Agents
+- Identify Possible Attacks
+- Understand Countermeasures
+- Identify Exploitable Vulnerabilities
+- Prioritize Identified Risks
+- Identify Countermeasures to Reduce Threats
+
+**7 Stages**
+1. Define Objectives
+2. Define Technical Scope
+3. Decompose the Application
+4. Threat Analysis
+5. Vulnerability Analysis
+6. Attack Analysis
+7. Risk/Impact Analysis
+
+#### STRIDE
+
+#weak_area 
+
+- **Spoofing** 
+- **Tampering** 
+- **Repudiation** 
+- **Information Disclosure** 
+- **Elevation of Privilege**
+
+#### DREAD
+
+#weak_area 
+
+- **Damage Potential**
+- **Reproduceability**
+- **Exploitability**
+- **Affected Users**
+- **DIscoverability**
 
 ## 1.11 Apply Supply Chain Risk Management (SCRM) Concepts
 
@@ -453,5 +529,6 @@ SLA metrics are monitored and audited:
 
 ## 1.12 Establish and Maintain Security Awareness, Education, & Training
 
+Know the [NIST Reports](NIST%20Reports.md)
 Know **NIST 800-16** - Role-Based Cyber Training
 Know **NIST SP 800-50** - Knowledge Transfer
