@@ -138,24 +138,121 @@ Prevents users from accessing too much information. Prevents a **conflict of int
 
 ##### Graham-Denning Model
 
+Defines eight protection rights:
+1. Create Object
+2. Create Subject
+3. Delete Object
+4. Delete Subject
+5. Read Access Right
+6. Grant Access Right
+7. Delete Access Right
+8. Transfer Access Right
 
+##### Harrison-Ruzzo-Ullman (HRU) Model
 
+Maps a *matrix* of Subjects to Objects where each cell contains set of rights.
+Think of linux capabilities
+
+##### Take-Grant Model
+
+How administrators pass on rights.
 
 ## 3.3 Select Controls Based on System Security Requirements
 
-
+- Understand Security Requirements and Objectives
+- Review Regulations, Financial Ops, Legal, Restrictions
+- Apply RMF
+- Leverage Control Frameworks
 
 ## 3.4 Trusted Computing Base
 
+**TCB** - the total combination of mechanisms within a computer system
 
+Security perimeters separate the trusted base from the rest of a system.
+
+Kind of like a security kernel
+![](Pasted%20image%2020241209140414.png)
+
+#### System Self Protection Techniques
+
+Protection techniques are performed by the TCB
+
+- **![](Pasted%20image%2020241209140641.png)**
+	- process isolation
+	- security domains
+	- VMs
+- **Layering and Data Hiding**
+	- Levels of access to resources
+	- **Protection Rings**
+
+![](Pasted%20image%2020241209140617.png)
+
+#### Reference monitor concept: Access Controls
+
+**Security Kernel** - Components that enforce rules of the *reference monitor*
+**Reference Monitor** - controls access between subjects and objects -- actions are audited and logged
 
 ## 3.5 Assess & Mitigate Vulnerabilities
 
+### Database Systems
 
+**DBMS** - Database Management system
+- Oracle
+- SQL Server
+- MySQL
+- MariaDB
+- DB2
+
+*DBA* - Database Admin
+
+#### Database Integrity
+
+**Entity Integrity** - each primary key is unique
+**Referential Integrity** - cascading
+
+ **Online Transaction Processing (OLTP)** - load balancing transactions
+ **ACID Test**
+ - *Atomic* - steps are completed successfully
+ - *Consistent* - synchronize records
+ - *Isolation* - transactions do not interfere with one another
+ - *Durability* - transactions are verified
+
+### Embedded Systems
+
+Lots of devices use embedded systems. Do a risk assessment.
+
+### Security Evaluation Frameworks
+
+3rd party evaluation provides assurance using an objective common metric
+
+#### Common Criteria Process
+
+1. **Develop Protection Profiles (PP)**
+2. **Build Product to meet PP - the Target of Evaluation (TOE)**
+3. **Prepare a custom Security Target (ST)**
+4. **Submit TOE, ST, and documentation to independent auditor**
+
+![](Pasted%20image%2020241209160028.png)
+
+#### Evaluation Ratings
+
+**Evaluation Assurance Levels**
+- EAL 7 - Formally Verified, Designed, and Tested
+- EAL 6 - Semi-formal, verified, designed, and tested
+- EAL 5 semi-formal designed and tested
+- EAL 4 - Methodically designed, tested, and reviewed
+- EAL 3 - Methodically tested and checked
+- EAL 2 - Structurally Tested
+- EAL 1 - Functionally tested
 
 ## 3.6 Determine Cryptographic Solutions
 
+#### Crypto Life Cycle
 
+*Effective Cryptosystems:*
+- maintain key secrecy
+- uses strong algorithms
+- use a large key space
 
 ## 3.7 Methods of Cryptanalytic Attacks
 
