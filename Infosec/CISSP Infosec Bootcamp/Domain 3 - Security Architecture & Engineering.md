@@ -254,17 +254,144 @@ Lots of devices use embedded systems. Do a risk assessment.
 - uses strong algorithms
 - use a large key space
 
+### Data Hiding Strategies
+
+- One-Time-Pad (OTP)
+- Steganography
+
+### Hashing Algorithms
+
+**SHA** - Secure Hashing Algorithm
+**HMAC** - Hash Message Authentication Code - encrypt hash with a secret key
+
+### Symmetric & Asymmetric Cryptography
+
+Think AES vs RSA
+
+### Public Key Infrastructure (PKI)
+
+**Certificate Authority** - A trusted third party provider that issues digital certificates to others
+**Registration authority** - a licensed cert distributor which handles authentication, cert requests, and revocation
+
+#### PKI Key Management Process
+
+1. Key Generation
+2. Certificate Generation
+3. ID Verification (by CA/RA)
+4. Key Distribution
+5. Key Suspension
+6. Revocation
+7. Expiration
+8. Renewal
+9. Destruction
+
+##### Key Recovery
+
+*Key Escrow* - maintaining a backup for government use or if a user loses their copy
+- *Key Recovery Agent (KRA)* - authorized parties that can recover from an Escrow
+- *Separation of Duties* - TPI required for recovering key
+- *Split Knowledge* - TPI
+
+#### Digital Signatures
+
+Focus on **Integrity** and **Non-Repudiation**
+
+*Process*
+1. Hash a file
+2. Encrypt hash using private key
+3. verify signature using public key
+
+##### Digital Rights Management (DRM)
+
+Components that control the distribution and control of documents and intellectual property
+
+### Digital Certificates
+
+**X.509** - Proves Identity
+
+![](Pasted%20image%2020241209174213.png)
+
+#### Certificate Revocation
+
+**Certificate Revocation List (CRL)** - list of revoked or suspended certificate serial numbers
+
+**Online Certificate Status Protocol (OCSP)** - a newer mechanism for identifying revoked certificates
+
+#### Public Key Cryptography Standard (PKCS)
+
+PKI Standards for Asymmetric Encryption and Digital Certs
+- *PKCS#3* - DHKE
+- based on FIPS standards
+
+
+### Key Exchange
+
+#### IPSEC - Secure Communications: VPN
+
+**Layer 2 Tunneling Protocol (L2TP)**
+- **Authentication Header** - connectionless header protecting against replay attacks
+- **Encapsulating Payload (ESP)** - provide confidentiality and anti-reply
+
+#### SSL/TLS Public Key Infrastructure
+
+*SSL* is older. use **TLS**. 
+Process involves exchanging asymmetric session key 
+
+![](Pasted%20image%2020241209180946.png)
+
+#### Point-to-Point Tunneling Protocols
+- HTTPS: Port 443
+- SSL or VPN
+- **TLS**
+- RDP: port 3389
+- **L2TP/IPsec**
+
 ## 3.7 Methods of Cryptanalytic Attacks
 
+**Frequency Analysis
+*Algorithm Errors*
+**Dictionary Attacks**
+**Social Engineering**
+**Rubber Hose Attacks** - Extortion, bribery, threats of violence
+**Birthday Attack** - reverse-hash matching
 
+### Methods of Cryptanalytic Attacks
+
+**Chosen Plaintext** - IND-CPA
+**Chosen Ciphertext** - IND-CCA
+*Ciphertext Only* -IND-C2A
+*Known-Plaintext* - guess the ciphertext
+Implementation Attacks
 
 ## 3.8 Apply Security Principles to Site Design
 
+### Site and Facility Design
 
+#### Decide a Facility Location
 
 ## 3.9 Site/Facility Design Security Controls
 
+### Doors & Locks
 
+### Fire & Safety Prevention
+
+### Internal Facilities Security
+
+### Physical Intrusion Detection
+
+### Utilities and HVAC
+### Data Center Security
+### Media Storage and Wire Closet Access
 
 ## 3.10 Manage the Information System Lifecycle
 
+**Information Lifecycle Phases**
+1. *Initiation Phase* - Define system objectives and scope
+2. *Planning Phase* - Develop project plan and governance
+3. *Analysis Phase* - Gather and Prioritize requirements
+4. *Design Phase* - Create System Architecture
+5. *Implementation Phase* - build, integrate, and test components
+6. *Deployment Phase* - roll out and train users
+7. *Operations and Maintenance Phase* - Provide monitoring and support
+8. *Evaluation Phase* - Assess performance and gather feedback
+9. *Retirement Phase* - Decommission system and ensure compliance
