@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CISSP Infosec Bootcamp/Domain 3 - Security Architecture & Engineering.md",
+                "file": "CISSP Infosec Bootcamp/Domain 4 - Communications and Network Security.md",
                 "mode": "source",
                 "source": true
               }
             },
-            "group": "744daf3932df0ef5"
+            "group": "9a96f4fc08958845"
           },
           {
             "id": "870e9edec2609012",
@@ -35,21 +35,21 @@
         ]
       },
       {
-        "id": "8da8944136712c7e",
+        "id": "ad74a5cb6aac01a9",
         "type": "tabs",
         "children": [
           {
-            "id": "9e507bae4479e959",
+            "id": "d163b2b56d8e3a5a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CISSP Infosec Bootcamp/Domain 3 - Security Architecture & Engineering.md",
+                "file": "CISSP Infosec Bootcamp/Domain 4 - Communications and Network Security.md",
                 "mode": "preview",
                 "source": true
               }
             },
-            "group": "744daf3932df0ef5"
+            "group": "9a96f4fc08958845"
           }
         ]
       }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CISSP Infosec Bootcamp/Domain 3 - Security Architecture & Engineering.md",
+                "file": "CISSP Infosec Bootcamp/Domain 4 - Communications and Network Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CISSP Infosec Bootcamp/Domain 3 - Security Architecture & Engineering.md",
+                "file": "CISSP Infosec Bootcamp/Domain 4 - Communications and Network Security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CISSP Infosec Bootcamp/Domain 3 - Security Architecture & Engineering.md"
+                "file": "CISSP Infosec Bootcamp/Domain 4 - Communications and Network Security.md"
               }
             }
           }
@@ -168,23 +168,23 @@
   },
   "active": "0d6ddf5c4bd75001",
   "lastOpenFiles": [
+    "zz_attachments/Pasted image 20241210173501.png",
+    "CISSP Infosec Bootcamp/NIST Reports.md",
+    "CISSP Infosec Bootcamp/Domain 4 - Communications and Network Security.md",
+    "CISSP Infosec Bootcamp/Domain 5 - Identity and Access Management.md",
+    "zz_attachments/Pasted image 20241210143933.png",
+    "zz_attachments/Pasted image 20241210142611.png",
+    "zz_attachments/Pasted image 20241210141909.png",
+    "zz_attachments/Pasted image 20241210140948.png",
+    "CISSP Infosec Bootcamp/Domain 3 - Security Architecture & Engineering.md",
     "zz_attachments/Pasted image 20241209180946.png",
     "zz_attachments/Pasted image 20241209174213.png",
     "zz_attachments/Pasted image 20241209160028.png",
-    "CISSP Infosec Bootcamp/Domain 4 - Communications and Network Security.md",
     "zz_attachments/Pasted image 20241209140641.png",
     "zz_attachments/Pasted image 20241209140617.png",
     "zz_attachments/Pasted image 20241208123235.png",
-    "CISSP Infosec Bootcamp/Domain 3 - Security Architecture & Engineering.md",
-    "zz_attachments/Pasted image 20241209140414.png",
-    "zz_attachments/Pasted image 20241209124034.png",
-    "zz_attachments/Pasted image 20241209123119.png",
-    "zz_attachments/Pasted image 20241209122207.png",
-    "zz_attachments/Pasted image 20241209120959.png",
-    "CISSP Infosec Bootcamp/NIST Reports.md",
     "CISSP Infosec Bootcamp/Domain 2 - Asset Security.md",
     "CISSP Infosec Bootcamp/Domain 1 - Security & Risk Management.md",
-    "CISSP Infosec Bootcamp/Domain 5 - Identity and Access Management.md",
     "CISSP Infosec Bootcamp/Domain 7 - Security Operations.md",
     "CISSP Infosec Bootcamp/Domain 8 - Software Development Security.md",
     "CISSP Infosec Bootcamp/Domain 6 - Security Assessment and Testing.md",

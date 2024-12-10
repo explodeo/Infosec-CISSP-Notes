@@ -54,7 +54,7 @@ For the exam, understand the steps and what happens at each stage
 ```
 
 ### Threat Modeling
-
+#weak_area 
 **Threat Modeling** - the process for attack simulation and threat analysis
 
 **STRIDE** - Spoof, Tamper, Repudiation, Info Disclosure, DoS, Elevating Privilege
@@ -96,6 +96,7 @@ https://attack.mitre.org/matrices/enterprise/
 Information Flow Models
 
 #### Multi-Level Security Model
+#weak_area 
 
 MLS systems employ **BIBA** or **Bell-LaPadula** too support different classifications
 
@@ -104,12 +105,16 @@ MLS systems employ **BIBA** or **Bell-LaPadula** too support different classific
 ##### Bell-LaPadula
 
 *WURD, Lattice Model*
+- **Simple Security Property** - Reading data
+- **\*-property** - writing data
 
 ![](Pasted%20image%2020241209120959.png)
 
 ##### Biba Model
 
 *No WURD, Lattice Model* - deals with integrity levels
+- **Simple Security Property** - Reading data
+- **\*-property** - writing data
 
 ![](Pasted%20image%2020241209122207.png)
 
@@ -174,6 +179,7 @@ Kind of like a security kernel
 ![](Pasted%20image%2020241209140414.png)
 
 #### System Self Protection Techniques
+#weak_area 
 
 Protection techniques are performed by the TCB
 
@@ -235,11 +241,12 @@ Lots of devices use embedded systems. Do a risk assessment.
 ![](Pasted%20image%2020241209160028.png)
 
 #### Evaluation Ratings
+#weak_area 
 
 **Evaluation Assurance Levels**
 - EAL 7 - Formally Verified, Designed, and Tested
 - EAL 6 - Semi-formal, verified, designed, and tested
-- EAL 5 semi-formal designed and tested
+- EAL 5 - Semi-formal designed and tested
 - EAL 4 - Methodically designed, tested, and reviewed
 - EAL 3 - Methodically tested and checked
 - EAL 2 - Structurally Tested
@@ -327,10 +334,14 @@ PKI Standards for Asymmetric Encryption and Digital Certs
 ### Key Exchange
 
 #### IPSEC - Secure Communications: VPN
+#weak_area 
 
 **Layer 2 Tunneling Protocol (L2TP)**
 - **Authentication Header** - connectionless header protecting against replay attacks
 - **Encapsulating Payload (ESP)** - provide confidentiality and anti-reply
+
+IPsec uses **Internet Key Exchange (IKE)** for key exchange
+
 
 #### SSL/TLS Public Key Infrastructure
 
@@ -340,6 +351,7 @@ Process involves exchanging asymmetric session key
 ![](Pasted%20image%2020241209180946.png)
 
 #### Point-to-Point Tunneling Protocols
+
 - HTTPS: Port 443
 - SSL or VPN
 - **TLS**
@@ -355,7 +367,7 @@ Process involves exchanging asymmetric session key
 **Rubber Hose Attacks** - Extortion, bribery, threats of violence
 **Birthday Attack** - reverse-hash matching
 
-### Methods of Cryptanalytic Attacks
+### Methods of Cryptanalytic Attacks  
 
 **Chosen Plaintext** - IND-CPA
 **Chosen Ciphertext** - IND-CCA
@@ -363,25 +375,122 @@ Process involves exchanging asymmetric session key
 *Known-Plaintext* - guess the ciphertext
 Implementation Attacks
 
+**Birthday Attacks** - generating collisions 
+
 ## 3.8 Apply Security Principles to Site Design
 
 ### Site and Facility Design
 
-#### Decide a Facility Location
+#### Intruder Protection Concepts
+
+*Deter, detect, delay, and respond* to intruders
+
+***protect the people first***
+
+**Layered Physical Access Control and Monitoring**
+- **Match Access Design to Business Needs**
+	- first, assess existing security
+	- balance cost risk and convenience
+- **Design controls to enforce *specific needs***
+
+#### Deciding a Location
+
+**Location considerations**
+- natural disasters
+- adjacent facilities / regulations
+
+**hazards**
+- burgulars
+
+**Outside Assistance**
+- public services, EMTs, etc
+
+**Visibility**
+- line of sight
+- markings
+- easy to find
+
+#### Site Security and Risk Assessment
+
+- Identify assets
+- identify threats
+- *Perform a site survey and develop a plan*
+
+#### Appropriate Facility Attributes
+
+**Fire Ratings** 
+- **Class A** – Class A fires involve solid materials like wood, trash, and textiles. Ordinary combustibles. These fires are most familiar to us and are the most easily extinguished.
+- **Class B** – Class B fires involve flammable liquids like gasoline, alcohol, diesel, or oil (not cooking oils). The volatility of the fuel source makes them more difficult.
+- **Class C** – Class C fires involve electrical components and equipment as fuel sources. This includes fires started by faulty wiring in walls, circuit breakers, and appliances.
+
+1. A **dry pipe system** contains compressed air that is released when the system is triggered, and opens a water valve that causes the pipes to fill and discharge water.
+2. A *deluge system* is another dry pipe system that uses larger pipes and therefore a significantly larger volume of water. Deluge systems are not appropriate for environments that include electronic equipment.
+3. A **preaction system** is a combination of dry pipe and wet pipe systems. The system exists as a dry pipe until the initial stages of a fire are detected and then the pipes are filled with water. The water is released only after the sprinkler head activation triggers are melted by sufficient heat. If the fire is quenched before the sprinklers are triggered, the pipes can be manually emptied and reset. Preaction systems are the most appropriate water-based system for environments that include both electronic equipment and personnel in the same locations.
 
 ## 3.9 Site/Facility Design Security Controls
 
 ### Doors & Locks
 
+1. Something you have
+2. Something you are
+3. Something you know
+
 ### Fire & Safety Prevention
+
+#### Early Fire & Smoke Detection
+
+- **Smoke detection**
+- **Heat detection**
+- **Flame Sensor**
+- Human Detection
+
+#### Fire Suppression
+
+##### Fire Extinguisher Types
+#weak_area 
+
+**Class A** - Ordinary combustible materials
+**Class B** - Flammable or combustable liquids
+**Class C** - electrical fires (*USE CO2*)
+**Class D** - Combustible metals
+
+##### Sprinkler Systems
+#weak_area 
+
+**Wet Pipe** - pressurized water pipe
+**Dry Pipe** - Only air in pipes until valve is turned to feed sprinklers
+**Preaction** - two-step dry pipe (ex: smoke detector then valves open)
+**Deluge** - floods water/foam (best for manufacturing areas)
 
 ### Internal Facilities Security
 
+##### Access Control Systems
+
+- Prox Cards
+- Smart Cards
+- Access Control DB - logs
+- Photo ID
+
 ### Physical Intrusion Detection
 
+**Defense-in-Depth** - layered security
+- *Guards*
+- *Motion detectors*
+- *Cameras*
+- Intrusion detection systems (ex: magnetic doors, glass break sensors)
+
 ### Utilities and HVAC
-### Data Center Security
-### Media Storage and Wire Closet Access
+
+#### Available & Reliable Utilities
+
+**Service-Level Agreement (SLA)** - service contract
+
+- supply redundancy
+- communication systems
+- heating/cooling/hvac
+- fuel for heat
+
+**Supervisory Control and Data Acquisition (SCADA)** are ICS systems consolidate monitoring of multiple control sources/sensors.
 
 ## 3.10 Manage the Information System Lifecycle
 
