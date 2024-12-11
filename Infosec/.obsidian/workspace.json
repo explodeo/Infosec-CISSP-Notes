@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CISSP Infosec Bootcamp/Domain 4 - Communications and Network Security.md",
+                "file": "CISSP Infosec Bootcamp/Domain 5 - Identity and Access Management.md",
                 "mode": "source",
                 "source": true
               }
@@ -44,7 +44,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CISSP Infosec Bootcamp/Domain 4 - Communications and Network Security.md",
+                "file": "CISSP Infosec Bootcamp/Domain 5 - Identity and Access Management.md",
                 "mode": "preview",
                 "source": true
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CISSP Infosec Bootcamp/Domain 4 - Communications and Network Security.md",
+                "file": "CISSP Infosec Bootcamp/Domain 5 - Identity and Access Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CISSP Infosec Bootcamp/Domain 4 - Communications and Network Security.md",
+                "file": "CISSP Infosec Bootcamp/Domain 5 - Identity and Access Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CISSP Infosec Bootcamp/Domain 4 - Communications and Network Security.md"
+                "file": "CISSP Infosec Bootcamp/Domain 5 - Identity and Access Management.md"
               }
             }
           }
@@ -168,10 +168,13 @@
   },
   "active": "0d6ddf5c4bd75001",
   "lastOpenFiles": [
-    "zz_attachments/Pasted image 20241210173501.png",
-    "CISSP Infosec Bootcamp/NIST Reports.md",
+    "zz_attachments/Pasted image 20241211160511.png",
+    "zz_attachments/Pasted image 20241211155609.png",
     "CISSP Infosec Bootcamp/Domain 4 - Communications and Network Security.md",
+    "CISSP Infosec Bootcamp/NIST Reports.md",
+    "CISSP Infosec Bootcamp/Domain 6 - Security Assessment and Testing.md",
     "CISSP Infosec Bootcamp/Domain 5 - Identity and Access Management.md",
+    "zz_attachments/Pasted image 20241210173501.png",
     "zz_attachments/Pasted image 20241210143933.png",
     "zz_attachments/Pasted image 20241210142611.png",
     "zz_attachments/Pasted image 20241210141909.png",
@@ -181,13 +184,10 @@
     "zz_attachments/Pasted image 20241209174213.png",
     "zz_attachments/Pasted image 20241209160028.png",
     "zz_attachments/Pasted image 20241209140641.png",
-    "zz_attachments/Pasted image 20241209140617.png",
-    "zz_attachments/Pasted image 20241208123235.png",
     "CISSP Infosec Bootcamp/Domain 2 - Asset Security.md",
     "CISSP Infosec Bootcamp/Domain 1 - Security & Risk Management.md",
     "CISSP Infosec Bootcamp/Domain 7 - Security Operations.md",
     "CISSP Infosec Bootcamp/Domain 8 - Software Development Security.md",
-    "CISSP Infosec Bootcamp/Domain 6 - Security Assessment and Testing.md",
     "Misc Docs",
     "README.md",
     "New Rich Text Document.rtf",
