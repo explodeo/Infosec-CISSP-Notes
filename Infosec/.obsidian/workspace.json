@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CISSP Infosec Bootcamp/Domain 6 - Security Assessment and Testing.md",
+                "file": "CISSP Infosec Bootcamp/Domain 8 - Software Development Security.md",
                 "mode": "source",
                 "source": true
               }
@@ -21,12 +21,24 @@
             "group": "9a96f4fc08958845"
           },
           {
-            "id": "870e9edec2609012",
+            "id": "b447f6e2aaf0b496",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CISSP Infosec Bootcamp/NIST Reports.md",
+                "file": "NIST Reports.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "35467f09dc43a638",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sybex Study Essentials Topics.md",
                 "mode": "source",
                 "source": true
               }
@@ -44,7 +56,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CISSP Infosec Bootcamp/Domain 6 - Security Assessment and Testing.md",
+                "file": "CISSP Infosec Bootcamp/Domain 8 - Software Development Security.md",
                 "mode": "preview",
                 "source": true
               }
@@ -109,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CISSP Infosec Bootcamp/Domain 6 - Security Assessment and Testing.md",
+                "file": "CISSP Infosec Bootcamp/Domain 8 - Software Development Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CISSP Infosec Bootcamp/Domain 6 - Security Assessment and Testing.md",
+                "file": "CISSP Infosec Bootcamp/Domain 8 - Software Development Security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CISSP Infosec Bootcamp/Domain 6 - Security Assessment and Testing.md"
+                "file": "CISSP Infosec Bootcamp/Domain 8 - Software Development Security.md"
               }
             }
           }
@@ -168,24 +180,25 @@
   },
   "active": "0d6ddf5c4bd75001",
   "lastOpenFiles": [
-    "zz_attachments/Pasted image 20241211180937.png",
-    "CISSP Infosec Bootcamp/Domain 7 - Security Operations.md",
+    "NIST Reports.md",
     "CISSP Infosec Bootcamp/Domain 8 - Software Development Security.md",
+    "zz_attachments/Pasted image 20241212152255.png",
+    "CISSP Infosec Bootcamp/Domain 7 - Security Operations.md",
+    "zz_attachments/Pasted image 20241212141937.png",
+    "zz_attachments/Pasted image 20241212135615.png",
+    "zz_attachments/Pasted image 20241212114219.png",
+    "Sybex Study Essentials Topics.md",
+    "zz_attachments/Pasted image 20241212105022.png",
+    "Untitled",
     "CISSP Infosec Bootcamp/Domain 6 - Security Assessment and Testing.md",
+    "zz_attachments/Pasted image 20241211180937.png",
     "CISSP Infosec Bootcamp/Domain 5 - Identity and Access Management.md",
     "zz_attachments/Pasted image 20241211160511.png",
     "zz_attachments/Pasted image 20241211155609.png",
     "CISSP Infosec Bootcamp/Domain 4 - Communications and Network Security.md",
-    "CISSP Infosec Bootcamp/NIST Reports.md",
     "zz_attachments/Pasted image 20241210173501.png",
     "zz_attachments/Pasted image 20241210143933.png",
-    "zz_attachments/Pasted image 20241210142611.png",
-    "zz_attachments/Pasted image 20241210141909.png",
-    "zz_attachments/Pasted image 20241210140948.png",
     "CISSP Infosec Bootcamp/Domain 3 - Security Architecture & Engineering.md",
-    "zz_attachments/Pasted image 20241209180946.png",
-    "zz_attachments/Pasted image 20241209174213.png",
-    "zz_attachments/Pasted image 20241209160028.png",
     "CISSP Infosec Bootcamp/Domain 2 - Asset Security.md",
     "CISSP Infosec Bootcamp/Domain 1 - Security & Risk Management.md",
     "Misc Docs",
