@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NIST Reports.md",
+                "file": "References.md",
                 "mode": "source",
                 "source": true
               }
@@ -180,7 +180,7 @@
   },
   "active": "0d6ddf5c4bd75001",
   "lastOpenFiles": [
-    "NIST Reports.md",
+    "References.md",
     "CISSP Infosec Bootcamp/Domain 8 - Software Development Security.md",
     "zz_attachments/Pasted image 20241212152255.png",
     "CISSP Infosec Bootcamp/Domain 7 - Security Operations.md",

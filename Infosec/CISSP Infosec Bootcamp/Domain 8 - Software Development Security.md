@@ -111,5 +111,20 @@ Understand vetting software is important.
 - BOF
 - CSRF/XSRF/XSS
 - SQLi
+- TOC/TOU
 
 Also know secure APIs
+
+### Software Development Methods
+
+#### Agile
+
+Uses things like scrum, timebox, and "iterative process"
+
+#### Waterfall
+
+Discrete phases with ability complete each phase before flowing down
+
+#### Spiral Model
+
+Cyclical model combining prototyping 

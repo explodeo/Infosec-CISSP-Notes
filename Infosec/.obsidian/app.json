@@ -4,5 +4,6 @@
   "readableLineLength": false,
   "newFileLocation": "current",
   "useMarkdownLinks": true,
-  "showLineNumber": false
+  "showLineNumber": false,
+  "alwaysUpdateLinks": true
 }
