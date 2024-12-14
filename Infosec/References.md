@@ -18,6 +18,9 @@ FIPS 200 - Minimum Security Requirements for Federal Information and Information
 
 ISO 27001
 ISO 27002
+
+ISO 27031
+ISO 27035
 ISO/IEC 27035
 
 802.11i

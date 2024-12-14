@@ -16,7 +16,9 @@
                 "file": "CISSP Infosec Bootcamp/Domain 8 - Software Development Security.md",
                 "mode": "source",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Domain 8 - Software Development Security"
             },
             "group": "9a96f4fc08958845"
           },
@@ -29,7 +31,21 @@
                 "file": "References.md",
                 "mode": "source",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "References"
+            }
+          },
+          {
+            "id": "9297e48c39d89aa1",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
             }
           },
           {
@@ -41,10 +57,13 @@
                 "file": "Sybex Study Essentials Topics.md",
                 "mode": "source",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Sybex Study Essentials Topics"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "ad74a5cb6aac01a9",
@@ -59,7 +78,9 @@
                 "file": "CISSP Infosec Bootcamp/Domain 8 - Software Development Security.md",
                 "mode": "preview",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Domain 8 - Software Development Security"
             },
             "group": "9a96f4fc08958845"
           }
@@ -83,7 +104,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -98,7 +121,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           }
         ]
@@ -121,7 +146,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CISSP Infosec Bootcamp/Domain 8 - Software Development Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +153,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           },
           {
@@ -138,10 +164,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CISSP Infosec Bootcamp/Domain 8 - Software Development Security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           },
           {
@@ -152,7 +179,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -160,9 +189,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "CISSP Infosec Bootcamp/Domain 8 - Software Development Security.md"
-              }
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           }
         ]
@@ -178,10 +207,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0d6ddf5c4bd75001",
+  "active": "9297e48c39d89aa1",
   "lastOpenFiles": [
-    "References.md",
     "CISSP Infosec Bootcamp/Domain 8 - Software Development Security.md",
+    "References.md",
     "zz_attachments/Pasted image 20241212152255.png",
     "CISSP Infosec Bootcamp/Domain 7 - Security Operations.md",
     "zz_attachments/Pasted image 20241212141937.png",
